@@ -41284,20 +41284,7 @@ svg:not(:root) {
   bottom: 0;
   left: 0;
   z-index: -1;
-  background: -webkit-gradient(linear,
-      left top,
-      right top,
-      from(rgba(3, 15, 39, 0.7)),
-      to(rgba(3, 15, 39, 0)));
-  background: -webkit-linear-gradient(left,
-      rgba(3, 15, 39, 0.7) 0,
-      rgba(3, 15, 39, 0) 100%);
-  background: -o-linear-gradient(left,
-      rgba(3, 15, 39, 0.7) 0,
-      rgba(3, 15, 39, 0) 100%);
-  background: linear-gradient(to right,
-      rgba(3, 15, 39, 0.7) 0,
-      rgba(3, 15, 39, 0) 100%);
+  background-color: #0000008c;
 }
 
 [data-overlay="0"]::before {
@@ -43137,6 +43124,20 @@ textarea:focus {
   color: #030f27;
 }
 
+.order_width_header {
+  width: 63%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.order_width_header_right {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
 .pagination {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -43242,6 +43243,63 @@ textarea:focus {
     padding-bottom: 260px;
   }
 }
+
+/* logo/regaster button style start */
+
+.logo_regaster_button {
+  margin-left: 4%;
+  width: 40%;
+}
+
+.lg_reg_but_url {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #2ea1d2;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.lg_reg_but_url .lg_reg_but_icon {
+  margin-right: 5px;
+  position: relative;
+  z-index: 11111111;
+}
+
+.lg_reg_but_url .lg_reg_but_text {
+  font-size: 16px;
+  position: relative;
+  z-index: 11111111;
+}
+
+.lg_reg_but_url::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 100%;
+  background-color: #00ccf4;
+  transition: right 0.3s ease;
+}
+
+.lg_reg_but_url:hover::before {
+  right: 0;
+}
+
+.lg_reg_but_url:hover .lg_reg_but_text {
+  color: white;
+}
+
+.lg_reg_but_url:hover .lg_reg_but_icon {
+  color: white;
+}
+
+/* logo/regaster button style end */
 
 .agency-accordion .card {
   border: 1px solid #e7e7e7;
@@ -44277,6 +44335,7 @@ textarea:focus {
 }
 
 .header-section .header-inner {
+  position: relative;
   z-index: 9999;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -44284,6 +44343,17 @@ textarea:focus {
   align-items: center;
   background-color: #fff;
   height: 75px;
+}
+
+.header-inner::after {
+  content: "";
+  position: absolute;
+  background: #00000042;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -44347,8 +44417,8 @@ textarea:focus {
 }
 
 .header-section.header-transparent .header-inner {
-  background-color: #00000066;
-  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  background-color: #0164f91f;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px;
 }
 
 .header-section.header-light .header-login a {
@@ -44760,11 +44830,11 @@ textarea:focus {
 }
 
 .site-main-menu>ul>li>a {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 500;
   line-height: 1.375;
   display: block;
-  padding: 40px 15px;
+  padding: 40px 30px;
   color: #fff;
 }
 
@@ -49971,11 +50041,6 @@ div#forgot-password {
   font-size: 20px;
   color: #000;
   font-weight: bold;
-}
-
-.site-main-menu>ul>li>a {
-  font-size: 12px;
-  padding: 40px 8px !important;
 }
 
 .mynav {

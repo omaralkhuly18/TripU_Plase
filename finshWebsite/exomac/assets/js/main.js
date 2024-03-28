@@ -421,12 +421,12 @@
   /*--
         On Load Function
     -----------------------------------*/
-  $window.on("load", function () {});
+  $window.on("load", function () { });
 
   /*--
         Resize Function
     -----------------------------------*/
-  $window.resize(function () {});
+  $window.resize(function () { });
 })(jQuery);
 
 // menu_toggel
@@ -535,17 +535,12 @@ document.body.addEventListener("click", function (e) {
 
 function menuToggleLanguage() {
   //const toggleMenu = document.querySelector(".profile_menu");
-  const toggleNotification = document.querySelector(
-    ".profile_menu_notification"
-  );
+
   const toggleMenuLang = document.querySelector(".profile_menu_Language");
+  if (toggleMenuLang != null) {
+    toggleMenuLang.classList.toggle("active");
 
-  // إغلاق النوافذ الأخرى
-  //toggleMenu.classList.remove("active");
-  toggleNotification.classList.remove("active");
-
-  // تبديل حالة العنصر الحالي
-  toggleMenuLang.classList.toggle("active");
+  }
 }
 // function menuToggle(menuName) {
 //   const menus = document.querySelectorAll(".menu");
@@ -1025,7 +1020,7 @@ function updateData(sectionId) {
   document.getElementById("myInput").value = numberValue;
 
   if (numberValue == null || numberValue === "") {
-    return 
+    return
     alert("Error: Number is empty or null");
     window.location.href = "coupon_failed_en.html";
   }
@@ -1042,7 +1037,7 @@ function updateDataAr(sectionId) {
   document.getElementById("myInput").value = numberValues;
 
   if (numberValues == null || numberValues === "") {
-    return 
+    return
     alert(" خطأ: الرقم فارغ أو فارغ ");
     window.location.href = "coupon_failed_ar.html";
   }
@@ -1059,7 +1054,7 @@ function updateDataFr(sectionId) {
   document.getElementById("myInput").value = numbersValue;
 
   if (numbersValue == null || numbersValue === "") {
-    return 
+    return
     alert("Erreur:le numéro est vide ou nul");
     window.location.href = "coupon_failed_fr.html";
   }
