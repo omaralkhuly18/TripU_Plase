@@ -1,6 +1,34 @@
 .site-main-menu>ul>li>a {
-  font-size: 12px;
-  padding: 40px 8px !important;
+  font-size: 17px;
+  padding: 40px 12px !important;
+}
+
+.logo_regaster_button {
+  width: 55%;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 991px){
+  .site-main-menu>ul>li>a{
+    font-size: 15px !important;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 991px) {
+  .logo_regaster_button {
+    width: 60% !important;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 767px) {
+  .menu_nav_phone {
+    width: 55% !important;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 576px) {
+  .menu_nav_phone {
+    width: 55% !important;
+  }
 }
 
 .mynav {

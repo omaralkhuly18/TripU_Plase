@@ -32,10 +32,6 @@
   transform: rotate(43deg);
 }
 
-.profile_menu {
-  left: 4%;
-  right: auto;
-}
 
 .profile_menu_Language {
   left: 6%;
@@ -43,14 +39,6 @@
   width: 18% !important;
 }
 
-.profile_menu_notification {
-  right: 77%;
-  width: 20% !important;
-}
-
-#logout {
-  transform: rotate(180deg);
-}
 
 .accordion .item .item-header h2 button.btn.btn-link {
   text-align: start;
@@ -70,21 +58,16 @@
   text-align: start;
 }
 
+.lg_reg_but_url {
+  justify-content: space-around;
+}
+
 @media screen and (max-width: 1199px) and (min-width: 991px) {
-  .profile_menu {
-    right: 82%;
-    left: auto !important;
-    width: 21% !important;
-  }
 
   .profile_menu_Language {
     left: -6%;
   }
 
-  .profile_menu_notification {
-    right: 82%;
-    width: 20% !important;
-  }
 }
 
 @media screen and (max-width: 991px) and (min-width: 767px) {
@@ -92,16 +75,6 @@
     left: -6%;
   }
 
-  .profile_menu {
-    right: 66%;
-    left: auto !important;
-    width: 27% !important;
-  }
-
-  .profile_menu_notification {
-    right: 62%;
-    width: 26% !important;
-  }
 }
 
 @media screen and (max-width: 767px) and (min-width: 576px) {
@@ -110,85 +83,31 @@
     left: 10%;
   }
 
-  .profile_menu {
-    right: 54%;
-    left: auto !important;
-    width: 33% !important;
-  }
-
-  .profile_menu_notification {
-    right: 49%;
-    width: 35% !important;
-  }
 }
 
 @media screen and (max-width: 576px) and (min-width: 405px) {
-  .profile_menu_Language {
-    left: 6%;
-  }
-
-  .profile_menu {
-    font-size: 12px;
-    left: 9%;
-    width: 30% !important;
-  }
 
   .profile_menu_Language {
     right: 10%;
     width: 30% !important;
   }
 
-  .profile_menu_notification {
-    right: 42%;
-    width: 40% !important;
-  }
 }
 
 @media screen and (max-width: 405px) and (min-width: 300px) {
-  .profile_menu_Language {
-    left: 8%;
-  }
-
-  .profile_menu {
-    font-size: 11px;
-    left: 16%;
-    width: 30% !important;
-  }
 
   .profile_menu_Language {
     right: 10%;
     width: 30% !important;
   }
 
-  .profile_menu_notification {
-    right: 39%;
-    width: 59% !important;
-  }
 }
 
 @media screen and (max-width: 300px) and (min-width: 220px) {
-  .profile_menu_Language {
-    left: 10%;
-  }
-
-  .profile_menu {
-    visibility: hidden !important;
-  }
 
   .profile_menu_Language {
     right: 14%;
     width: 35% !important;
-  }
-
-  .profile_menu_notification {
-    right: 35%;
-    width: 60% !important;
-  }
-
-  .notification-item img {
-    width: 40px !important;
-    height: 42px !important;
-    margin-right: 5px !important;
   }
 }
 
@@ -881,7 +800,7 @@ img.img_downloadeng {
   width: 27%;
 }
 
-a.link_click_of_down p{
+a.link_click_of_down p {
   font-size: 11px;
 }
 
@@ -902,7 +821,6 @@ a.link_click_of_down p{
   }
 }
 
-
 @media screen and (max-width: 767px) and (min-width: 576px) {
   .footer-widget {
     margin-left: 0%;
@@ -912,7 +830,6 @@ a.link_click_of_down p{
     width: 98%;
   }
 }
-
 
 @media screen and (max-width: 406px) and (min-width: 378px) {
 
@@ -925,6 +842,5 @@ a.link_click_of_down p{
     padding: 1% 0% 0% 5% !important;
   }
 }
-
 
 /* style buttons download app end */

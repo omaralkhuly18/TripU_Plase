@@ -44349,6 +44349,7 @@ textarea:focus {
   content: "";
   position: absolute;
   background: #00000042;
+  opacity: 0.8;
   height: 100%;
   width: 100%;
   top: 0;
@@ -44417,7 +44418,7 @@ textarea:focus {
 }
 
 .header-section.header-transparent .header-inner {
-  background-color: #0164f91f;
+  background: #00e8fb69;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px;
 }
 
@@ -44836,6 +44837,15 @@ textarea:focus {
   display: block;
   padding: 40px 30px;
   color: #fff;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 991px){
+  .site-main-menu>ul>li>a{
+    font-size: 14px !important;
+  }
+  .order_width_header_right{
+    justify-content: center !important;
+  }
 }
 
 .site-main-menu>ul>li>a .menu-text {

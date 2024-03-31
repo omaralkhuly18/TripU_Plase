@@ -718,6 +718,7 @@
 
   .menu_nav_phone {
     display: block;
+    width: 50% !important;
   }
 }
 
@@ -736,6 +737,7 @@
 
   .menu_nav_phone {
     display: block;
+    width: 50% !important;
   }
 }
 
@@ -754,6 +756,7 @@
 
   .menu_nav_phone {
     display: block;
+    width: 65% !important;
   }
 }
 
@@ -772,6 +775,7 @@
 
   .menu_nav_phone {
     display: block;
+    width: 65% !important;
   }
 }
 
@@ -790,6 +794,7 @@
 
   .menu_nav_phone {
     display: block;
+    width: 65% !important;
   }
 }
 

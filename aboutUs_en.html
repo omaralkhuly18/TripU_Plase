@@ -40,8 +40,7 @@
             <!-- Header Logo End -->
 
             <!-- Header Main Menu Start -->
-            <div
-              class="col-auto col-xl d-flex align-items-center justify-content-xl-center justify-content-end order-2 order-xl-1">
+            <div class="order_width_header ">
               <div class="menu-column-area d-none d-xl-block position-static">
                 <nav class="site-main-menu">
                   <ul>
@@ -63,18 +62,21 @@
                   </ul>
                 </nav>
               </div>
+              <!-- Header Main Menu end -->
+            </div>
+             <!-- Header Right Start -->
+            <div class="order_width_header_right">
               <!-- Header Search Start -->
-              <div class="header-search-area ml-xl-7 ml-0">
-                <!-- Header Login Start -->
+              <div class="header_search_area ml-xl-7 ml-0">
                 <div class="header-search">
                   <a href="javascript:void(0)" class="header-search-toggle"><i
                       class="fa-solid fa-magnifying-glass"></i></a>
                 </div>
-                <!-- Header Login End -->
               </div>
+              <!-- Header Search End -->
 
               <!-- language start -->
-              <div onclick="menuToggleLanguage();" class="">
+              <div onclick="menuToggleLanguage();" class="language_nav_bc">
                 <i class="fa-solid fa-earth-americas stylesvglang"></i>
                 <div class="profile_menu_Language">
                   <ul class="sub-menu">
@@ -90,6 +92,17 @@
                   </ul>
                 </div>
               </div>
+              <!-- language end -->
+
+              <!-- logo/regaster button start -->
+              <div class="logo_regaster_button menu_nav_bc">
+                <a href="authentication_en.html" target="_blank" class="lg_reg_but_url">
+                  <span class="lg_reg_but_icon"><i class="fas fa-sign-in-alt"></i></span>
+                  <span class="lg_reg_but_text">sign-in</span>
+                </a>
+              </div>
+              <!-- logo/regaster button end -->
+
               <!-- Header Mobile Menu Toggle Start -->
               <div class="header-mobile-menu-toggle d-xl-none ml-sm-2">
                 <button class="toggle">
@@ -100,8 +113,9 @@
               </div>
               <!-- Header Mobile Menu Toggle End -->
             </div>
-            <!-- Header Main Menu End -->
             <!-- Header Right End -->
+            <!-- Header Main Menu End -->
+
           </div>
         </div>
       </div>
@@ -116,7 +130,7 @@
       <div class="sidebar-search-input">
         <form action="#">
           <div class="form-search">
-            <input id="search" class="input-text" value="" placeholder="" type="search" />
+            <input id="search" class="input-text" value="" placeholder="search" type="search" />
             <button>
               <i class="fa fa-search"></i>
             </button>
@@ -127,7 +141,6 @@
     </div>
     <!-- Main Search End -->
 
-    <!-- Slider/Intro Section Start -->
     <div class="intro-slider-wrap section">
       <div class="intro-slider swiper-container">
         <div class="swiper-wrapper">
@@ -153,68 +166,9 @@
               </div>
             </div>
           </div>
-          <div class="swiper-slide">
-            <div class="intro-section section overlay" data-bg-color="#000"
-              data-bg-image="finshWebsite/images/cars/trip2.jpg">
-              <div class="container">
-                <div class="row row-cols-lg-1 row-cols-1">
-                  <!-- Intro One Content Start -->
-                  <div class="col align-self-center">
-                    <div class="intro-content mt-8">
-                      <h2 class="title">
-                        Designing awesome brands & experiences
-                      </h2>
-                      <div class="desc">
-                        <p>
-                          We are an agency located in New York. We think
-                          strategy, craft design, develop digital and create
-                          motion. To forward your brand and business.
-                        </p>
-                      </div>
-                      <a href="usedApp_en.html" class="btn btn-primary btn-hover-secondary">Get Started</a>
-                    </div>
-                  </div>
-                  <!-- Intro One Content End -->
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="intro-section section overlay" data-bg-color="#000"
-              data-bg-image="finshWebsite/images/cars/trip3.jpg">
-              <div class="container">
-                <div class="row row-cols-lg-1 row-cols-1">
-                  <!-- Intro One Content Start -->
-                  <div class="col align-self-center max-mb-30">
-                    <div class="intro-content mt-8">
-                      <h2 class="title">
-                        Designing awesome brands & experiences
-                      </h2>
-                      <div class="desc">
-                        <p>
-                          We are an agency located in New York. We think
-                          strategy, craft design, develop digital and create
-                          motion. To forward your brand and business.
-                        </p>
-                      </div>
-                      <a href="usedApp_en.html" class="btn btn-primary btn-hover-secondary">Get Started</a>
-                    </div>
-                  </div>
-                  <!-- Intro One Content End -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="home-slider-prev swiper-button-prev main-slider-nav">
-          <i class="fa-solid fa-angle-left"></i>
-        </div>
-        <div class="home-slider-next swiper-button-next main-slider-nav">
-          <i class="fa-solid fa-angle-right"></i>
         </div>
       </div>
     </div>
-    <!-- Slider/Intro Section End -->
 
     <!-- video Section Start -->
     <!-- <video controls>
@@ -729,7 +683,7 @@
                   <a href="aboutUs_en.html"><span class="menu-text">English</span></a>
                 </li>
                 <li>
-                  <a href="aboutUs_ar.html"><span class="menu-text">العربيه</span></a>
+                  <a href="aboutUs_ar.html"><span class="menu-text">Arabic</span></a>
                 </li>
                 <li>
                   <a href="aboutUs_fr.html"><span class="menu-text">French</span></a>
@@ -738,6 +692,14 @@
             </li>
             <li>
               <a href="contactUs_en.html"><span class="menu-text">Contact Us</span></a>
+            </li>
+            <li>
+              <div class="logo_regaster_button menu_nav_phone">
+                <a href="authentication_en.html" target="_blank"  class="lg_reg_but_url menu-text">
+                  <span class="lg_reg_but_icon"><i class="fas fa-sign-in-alt"></i></span>
+                  <span class="lg_reg_but_text">sign-in</span>
+                </a>
+              </div>
             </li>
           </ul>
         </nav>
